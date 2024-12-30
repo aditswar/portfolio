@@ -1,0 +1,114 @@
+{
+    "name": "Aditya Raj",
+    "introduction": "Hello, my name is Aditya Raj, and I am currently pursuing a Bachelor of Technology in Computer Science and Engineering (B.Tech CSE) at Amity University Jaipur. With a passion for technology and problem-solving, I am committed to building a strong foundation in computer science to contribute meaningfully to the ever-evolving tech industry. My academic journey at Amity University Jaipur provides me with the perfect blend of theoretical knowledge and practical exposure, empowering me to explore diverse areas such as programming, software development, and emerging technologies. I am driven by a desire to innovate and learn, aiming to develop skills that will enable me to address real-world challenges effectively. Outside academics, I am enthusiastic about exploring new technologies, collaborating on projects, and continuously growing both personally and professionally.",
+    "profession": "Software Engineer",
+    "contact": {
+        "mobileNo": "+91-8290689625",
+        "emailId": "Adityaraj8@gmail.com",
+        "website": "https://Adityaraj.in",
+        "country": "India",
+        "gitHub": "https://github.com/Adityaraj8",
+        "linkedInUrl": "https://www.linkedin.com/in/Adityaraj/"
+    },
+    "education": [
+        {
+            "institutionName": "Amity University",
+            "institutionLocation": "Jaipur",
+            "fromYear": "2011",
+            "toYear": "2015",
+            "course": "B.Tech",
+            "specialization": "CS&E"
+        }
+    ],
+    "skills": [
+        "Java",
+        "Python",
+        "AWS",
+        "Docker",
+        "Microservices",
+        "Distributed Systems",
+        "Apache Kafka",
+        "Apache Airflow",
+        "Docker",
+        "Redis"
+    ],
+    "technicalInterests": [
+        "Distributed Systems",
+        "Backend",
+        "Data Platform"
+    ],
+    "languages": [
+        {
+            "name": "English",
+            "fluency": "Professional"
+        },
+        {
+            "name": "Hindi",
+            "fluency": "Native"
+        }
+    ],
+    "summary": "I'm a Software Engineer specializing in back-end development with Java and Spring Boot, and skills in Python, Golang, and JavaScript (React/Angular). I have expertise in AWS, Docker, Kubernetes, and Terraform. Currently, I work in data engineering, managing terabytes of data daily with streams and Kafka. My team uses Airflow for scheduling ELT jobs and Trino for search capabilities.",
+    "workExperiences": [
+        {
+            "designation": "Senior Software Engineer 2",
+            "company": "Sophos",
+            "fromTimePeriod": "Jan 2021",
+            "toTimePeriod": "Present",
+            "jobSummary": [
+                "Worked on data ingestion services to ingest events from Apache Kafka and store the data in a data lake.",
+                "Contributed in creating a batch processing framework with Apache Airflow for generating DAGs from templates, primarily for querying data lakes.",
+                "Created a Java and Spring-based library for API rate limiting using Redis, improving the availability of critical services by managing rogue requests.",
+                "Developed a portal for microservice management, providing insights into service ownership, deployment, environments, and OAS specifications using Java, Angular, SQS, SNS, S3, and MySQL.",
+                "Built a service health library in Java to assess the real-time health of services based on dependencies, including in-house and cloud services.",
+                "Developed an API Gateway wrapper around AWS API Gateway as a replacement for Apigee."
+            ]
+        },
+        {
+            "designation": "Senior Development Engineer",
+            "company": "Pramati",
+            "fromTimePeriod": "Jul 2017",
+            "toTimePeriod": "Dec 2020",
+            "jobSummary": [
+                "Led the design and development of scalable applications using microservices architecture.",
+                "Mentored team members to foster a culture of continuous learning.",
+                "Managed GCP infrastructure for optimized operations and resource utilization."
+            ]
+        },
+        {
+            "designation": "Project Engineer",
+            "company": "Wipro",
+            "fromTimePeriod": "June 2015",
+            "toTimePeriod": "May 2017",
+            "jobSummary": [
+                "Developed and deployed a Java-based web application using the Spring framework for creating new tax users, filing tax returns, and validating them.",
+                "Created an integration framework to connect the tax system with the GSTN, ensuring regulatory compliance and accurate tax calculations."
+            ]
+        }
+    ],
+    "projects": [
+        {
+            "name": "Central Data Platform",
+            "organization": "Sophos",
+            "summary": "As part of the Data platform team, I worked on data ingestion services to ingest events from Apache Kafka and store the data in a data lake. I also contributed to creating a batch processing framework with Apache Airflow for generating DAGs from templates, primarily for querying data lakes.",
+            "skills": [
+                "Java",
+                "Spring Boot",
+                "Apache Airflow",
+                "Apache Kafka",
+                "AWS"
+            ]
+        },
+        {
+            "name": "Central Core Platform",
+            "organization": "Sophos",
+            "summary": "As part of the Core Platform team, I developed a Java and Spring-based library for API rate limiting using Redis to enhance service availability. I also created a microservice management portal utilizing Java, Angular, and AWS services for insights into service ownership and deployment. Additionally, I built a service health library in Java to monitor service dependencies and developed an API Gateway wrapper around AWS API Gateway, replacing Apigee.",
+            "skills": [
+                "Java",
+                "Spring Boot",
+                "AWS",
+                "Docker",
+                "Angular"
+            ]
+        }
+    ]
+}

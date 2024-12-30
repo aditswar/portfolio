@@ -1,0 +1,15 @@
+{
+    "homepageEnabled": true,
+
+    "resumeEnabled": false,
+    "resume": {
+        "headerEnabled": true,
+        "contactEnabled": true,
+        "workExperienceEnabled": true,
+        "projectsEnabled": true,
+        "educationEnabled": true,
+        "skillsEnabled": true,
+        "launguagesEnabled": true,
+        "interestsEnabled": true
+    }
+}

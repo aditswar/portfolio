@@ -1,0 +1,50 @@
+.projects {
+  margin-bottom: 40px;
+
+}
+
+.projects h3 {
+  font-size: 1.5em;
+  color: #00bfa5;
+  margin-bottom: 20px;
+  border-bottom: 2px solid #eaeaea;
+  padding-bottom: 5px;
+}
+
+.projects .project {
+  margin-bottom: 10px;
+  
+}
+
+.projects .project h4 {
+  text-align: left;
+  font-size: 1.3em;
+  color: #333;
+  font-weight: 400;
+  margin: 10px;
+}
+
+.projects .project p {
+  margin-top: 2px;
+  margin-bottom: 2px;
+  color: #666;
+  line-height: height 1.7em;
+}
+
+
+.project  .projectAndOrg{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.project .projectName{
+  flex: 7;
+  text-align: left;
+  /* align-items: center; */
+}
+
+.project .orgName{
+  flex: 5;
+  text-align: left;
+}

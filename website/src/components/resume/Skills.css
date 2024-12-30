@@ -1,0 +1,19 @@
+.skills {
+    margin-bottom: 40px;
+  }
+  
+  .skills h3 {
+    font-size: 1.5em;
+    color: #00bfa5;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #eaeaea;
+    padding-bottom: 5px;
+  }
+  
+  .skills p {
+    margin-bottom: 0px;
+    color: #666;
+    display:inline-flex;
+    text-align: left;
+  }
+  

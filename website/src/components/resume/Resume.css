@@ -1,0 +1,117 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "segoe ui", Roboto, "helvetica neue", Arial, "noto sans", sans-serif, "apple color emoji", "segoe ui emoji", "segoe ui symbol", "noto color emoji";
+  line-height: 1.6;
+  background-color: #f8f9fa;
+  margin: 0;
+  padding: 0;
+}
+
+
+
+.resume-container {
+  /* display: flex; */
+  max-width: 900px;
+  margin: 30px auto;
+  padding: 30px;
+  background: #fff;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.resume-container1 {
+  display: flex;
+  
+}
+
+.left-content {
+  flex: 9.5;
+  padding-right: 40px;
+}
+
+.right-sidebar {
+  flex: 2.5;
+  padding-left: 15px;
+  border-left: 2px solid #eaeaea;
+}
+
+h1, h2, h3 {
+  margin: 0 0 10px;
+  color: #00bfa5;
+}
+
+h1 {
+  font-size: 2.5em;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+h2 {
+  font-size: 1.5em;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+
+.section {
+  margin-bottom: 10px;
+}
+
+.section h3 {
+  margin-bottom: 10px;
+  color: #00bfa5;
+  border-bottom: 2px solid #eaeaea;
+  padding-bottom: 5px;
+}
+
+.section h4 {
+  font-size: 1.2em;
+  color: #333;
+  /* margin-bottom: 5px; */
+}
+
+.section p {
+  margin-bottom: 5px;
+  color: #666;
+}
+
+.section ul {
+  list-style: disc;
+  margin-left: 10px;
+}
+
+.section ul li {
+  margin-bottom: 1px;
+  color: #666;
+}
+
+/* Header Specific Styling */
+.header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+
+/* Work Experience Specific Styling */
+.job {
+  margin-bottom: 5px;
+}
+
+/* Project Specific Styling */
+.project {
+  margin-bottom: 15px;
+}
+
+/* Education Specific Styling */
+.degree {
+  margin-bottom: 15px;
+}
+
+/* Awards Specific Styling */
+.award {
+  margin-bottom: 15px;
+}
+
+/* Skills, Languages, Interests Specific Styling */
+.skills, .languages, .interests {
+  margin-bottom: 20px;
+}

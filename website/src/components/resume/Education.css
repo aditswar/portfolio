@@ -1,0 +1,29 @@
+.education {
+  margin-bottom: 40px;
+}
+
+.education h3 {
+  font-size: 1.5em;
+  color: #00bfa5;
+  margin-bottom: 20px;
+  border-bottom: 2px solid #eaeaea;
+  padding-bottom: 5px;
+}
+
+.education .degree {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.education .degree h4 {
+  font-size: 1.2em;
+  color: #333;
+  /* margin-bottom: 5px; */
+  /* text-align: left; */
+}
+
+.education .degree p {
+  margin-bottom: 5px;
+  color: #666;
+  text-align: center;
+}

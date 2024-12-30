@@ -1,0 +1,98 @@
+/* Navigation.css */
+
+.navigation {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: white;
+  color: #555;
+  opacity: 0.97;
+  padding: 10px 20px;
+  z-index: 1000;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between; /* Space between left and right sections */
+  align-items: center; /* Center items vertically */
+}
+
+.nav-left {
+  flex: 5; /* Takes up space on the left */
+  justify-content:center;
+}
+
+.nav-right {
+  flex: 7;
+  list-style-type: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  
+  gap: 10px; /* Adjusted gap between nav items */
+  justify-content:center;
+}
+
+.nav-item {
+    margin: 0;
+}
+
+.nav-left a {
+  font-size: 1.5em;
+  font-weight: 800;
+  font-family: "Roboto", sans-serif;
+  color: #555;
+  text-decoration: none;
+  padding: 10px 15px; /* Adjusted padding for visual balance */
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.nav-right a {
+  color: #555;
+  text-decoration: none;
+  padding: 10px 15px; /* Adjusted padding for visual balance */
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+
+.active-link {
+  background-color: #007bff;
+  color: white;
+}
+
+@media (max-width: 768px) {
+  .nav-container {
+    flex-direction: column;
+    align-items: flex-start; /* Align items to the start on smaller screens */
+  }
+
+  .nav-left {
+    width: 100%; /* Ensure full width for left section on small screens */
+    margin-bottom: 10px; /* Space between sections */
+  }
+
+  .nav-right {
+    flex-direction: column;
+    width: 100%; /* Full width for right section on small screens */
+    padding: 0; /* Remove padding */
+    gap: 5px; /* Adjusted gap for smaller screens */
+  }
+
+  .nav-item {
+    width: 100%; /* Full width for each item on small screens */
+    margin: 0; /* Remove margins */
+  }
+
+  .nav-right a {
+    text-align: center; /* Center the text in each link */
+    padding: 10px; /* Adjust padding for smaller screens */
+  }
+}
+
+body {
+  padding-top: 60px; /* Adjust to fit the height of the fixed navbar */
+}

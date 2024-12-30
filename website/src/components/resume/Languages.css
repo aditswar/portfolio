@@ -1,0 +1,18 @@
+.languages {
+    margin-bottom: 40px;
+  }
+  
+  .languages h3 {
+    font-size: 1.5em;
+    color: #00bfa5;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #eaeaea;
+    padding-bottom: 5px;
+  }
+  
+  .languages p {
+    margin-bottom: 5px;
+    color: #666;
+    display: inline-flex;
+  }
+  
